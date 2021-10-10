@@ -22,7 +22,7 @@ public class GraphData extends ApplicationFrame {
         super(applicationTitle);
         JFreeChart xylineChart = ChartFactory.createXYLineChart(
                 chartTitle,
-                "Time (1 = 1/2048 sec)",
+                "Time (1 = 1/n sec)",
                 "Transform",
                 createDataset(),
                 PlotOrientation.VERTICAL,
