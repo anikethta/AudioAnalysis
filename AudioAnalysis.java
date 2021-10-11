@@ -1,3 +1,8 @@
+// Work of Aniketh Tarikonda 
+// Contact at anikethta4200@gmail.com
+// Drippin too hard
+
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -60,7 +65,7 @@ public class AudioAnalysis {
          2. intializes n (the length of the dataset)
          **/
         Complex[] c;
-        try(BufferedReader br = new BufferedReader(new FileReader("/Users/anikethtarikonda/Desktop/AudioAnalysis/src/main/audio.in"))) {
+        try(BufferedReader br = new BufferedReader(new FileReader("YOUR-PATH-TO-audio.in"))) {
             double x_val = 0.0;
             int i = 0;
 
@@ -88,7 +93,7 @@ public class AudioAnalysis {
     /**
      public static void WriteToOutput(double[] x) {
      try {
-     FileWriter myWriter = new FileWriter("/Users/anikethtarikonda/Desktop/AudioAnalysis/src/main/audio.out");
+     FileWriter myWriter = new FileWriter("YOUR-PATH-TO-audio.out");
 
      for(int i = 0; i < x.length; i++) {
      myWriter.write(x[i] + "\n");
